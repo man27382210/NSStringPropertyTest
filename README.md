@@ -3,7 +3,7 @@ NSStringPropertyTest
 
 NSString Property Test, check what's different with retain and copy on NSString.
 
-***`testMutableStrCo`*** is a NSString, which property is `copy`, and ***`testMutableStrRe`*** property is `retain`.
+`testMutableStrCo` is a NSString, which property is `copy`, and `testMutableStrRe` property is `retain`.
 
 This exmaple show that how property doing when they get the value from a NSMutableString.
 
