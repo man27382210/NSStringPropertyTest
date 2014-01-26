@@ -10,7 +10,8 @@ This exmaple show that how property doing when they get the value from a NSMutab
 -----------
 ###code:
 
-	NSStringTest *strObj = [[NSStringTest alloc]init];	NSMutableString *someStr = [[NSMutableString alloc]initWithString:@"happy"];
+	NSStringTest *strObj = [[NSStringTest alloc]init];
+	NSMutableString *someStr = [[NSMutableString alloc]initWithString:@"happy"];
 	strObj.testMutableStrCo = someStr;
 	strObj.testMutableStrRe = someStr;
 	NSLog(@"testMutableStrCo :%@", strObj.testMutableStrCo);
